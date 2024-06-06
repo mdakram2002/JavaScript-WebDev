@@ -1,0 +1,98 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>map and sort</title>
+  </head>
+  <body>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus,
+    nesciunt! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+    Consectetur soluta itaque excepturi, dignissimos odit, ut quisquam saepe
+    aliquam ducimus deleniti error cum voluptatem voluptatum veritatis nam
+    molestiae libero odio omnis!
+  </body>
+
+  <script>
+    let companies = [
+      {
+        name: "Amazon",
+        catagry: "Product Based",
+        start: "1992",
+      },
+      {
+        name: "Google",
+        catagry: "Product Based",
+        start: "1981",
+      },
+      {
+        name: "Paytm",
+        catagry: "Product Based",
+        start: "1999",
+      },
+      {
+        name: "Uber",
+        catagry: "Product Based",
+        start: "2009",
+      },
+      {
+        name: "Atlassian",
+        catagry: "Product Based",
+        start: "2002",
+      },
+    ];
+
+    const ages = [11, 22, 23, 34, 45, 56, 67, 33, 44, 55];
+
+    //Map--->
+    // companies.map(function (company, index) {
+    //   // console.log(company);
+    // });
+
+    // const newCompney = companies.map((company, index) => {
+    //   return `${company.name}= ${company.catagry}`;
+    // });
+    // console.log(newCompney);
+
+    // sort functin--->
+    // sorted by his start from inscreasing and decreasing order
+    const sorted = companies.sort(function (c1, c2) {
+      // if (c1.start > c2.start) {
+      if (c1.start < c2.start) {
+        return 1;
+      } else {
+        return -1;
+      }
+    });
+    // console.log(sorted);
+
+    //with arrow functoin--->
+    const sorted1 = companies.sort((c1, c2) => (c1.start < c2.start ? 1 : -1));
+    console.log(sorted1);
+
+    //const newAges = ages.sort((a, b) => (a - b)); //incresing
+    const newAges = ages.sort((a, b) => b - a); //decresing
+    console.log(newAges);
+
+    //reduce functin--->
+
+    //withought reduce function--
+    // let total = 0;
+    // for (let i = 0; i < ages.length; i++) {
+    //   total += ages[i];
+    // }
+    // console.log(total);
+
+    // with reduce function --
+    const newAges1 = ages.reduce(function (total, ages) {
+      return total + ages;
+    }, 0);
+    // console.log(newAges1);
+
+    // const newAges2 = ages.reduce((total, ages) => total + ages, 0);
+    // console.log(newAges2);
+    //end javaScript--->
+  </script>
+</html>

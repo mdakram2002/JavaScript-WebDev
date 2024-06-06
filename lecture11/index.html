@@ -1,0 +1,49 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <lu>
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+        <li>G</li>
+      </lu>
+    </div>
+
+    <script>
+      var string1 = "this is string1";
+      console.log(string1);
+      {
+        var string1 = "this is string2";
+        console.log(string1);
+      }
+      let string2 = "this is string from let"; //error through because let is universal declare
+      console.log(string2);
+
+      const b = "this is const it is not change this value";
+      //   b = "this line is change from";
+      console.log(b);
+
+      let age = 8;
+      if (age > 18) {
+        console.log("you can drink a water");
+      } else if (age == 5) {
+        consolelg.log("you cann't drink a water");
+      } else if (age == 8) {
+        console.log("you can drink a water");
+      } else {
+        console.log("case sensetive");
+      }
+    </script>
+  </body>
+</html>
