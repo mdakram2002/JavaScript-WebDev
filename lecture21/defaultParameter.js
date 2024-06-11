@@ -1,59 +1,80 @@
-//Example 01, Default Parameter
-function sayName(myName = "Default Value / Name"){
-    console.log("My name is",myName)
-}
-// sayName("Akram Shaikh");
-sayName("Akram"); // if we not passing the value in the calling funciton the autometically function catch the default name, if we passing the parametera as a name then print passing value
+// //Example 01, Default Parameter
+// function sayName(myName = "Default Value / Name"){
+//     console.log("My name is",myName)
+// }
+// // sayName("Akram Shaikh");
+// sayName("Akram"); // if we not passing the value in the calling funciton the autometically function catch the default name, if we passing the parametera as a name then print passing value
 
 
 
-// Example 02, Argument
-function sayName(fName, lName){
-    console.log("My name is",fName,"",lName)
-}
-// sayName("Akram Shaikh");
-sayName("Akram","Shaikh");
-
-
-
-// Example 03, Changing the parameter
-function sayName(fName = "Akram", lName = fName.toUpperCase()){
-    console.log("My name is",fName,"",lName)
-}
-sayName();
+// // Example 02, Argument
+// function sayName(fName, lName){
+//     console.log("My name is",fName,"",lName)
+// }
+// // sayName("Akram Shaikh");
 // sayName("Akram","Shaikh");
 
 
 
-// // Example 04, Object
-function solve(value = { name: 'Akram', age: 22, weight: 50, height: 6 }) {
-    console.log("Hello jee this is object-", value);
+// // Example 03, one parameter is dependet on second,
+// function sayName(fName = "Akram", lName = fName.toUpperCase()){
+//     console.log("My name is",fName,"",lName)
+// }
+// sayName();
+// // sayName("Akram","Shaikh");
+
+
+
+// // // Example 04, Object
+// function solve(value = { name: 'Akram', age: 22, weight: 50, height: 6 }) {
+//     console.log("Hello jee this is object-", value);
+// }
+// solve();
+
+
+
+// // // Example 05, Array
+// function solve(value = ["Akram", 33, null, 7.5, "World"]) {
+//     console.log("Hello jee! this is Array", value);
+// }
+// solve();
+
+
+
+
+// // // Example 06, null
+// function solve(value = ["Akram", 33, null, 7.5, "World"]) {
+//     console.log("Hello jee! this is ", value);
+// }
+// solve(null);
+
+
+// // Example 07, undefined
+// function solve(value = ["Akram", 33, null, 7.5, "World"]) {
+//     console.log("Hello jee! this is ", value);
+// }
+// solve(undefined); // undefined is not accepted, accept the default parameter
+
+
+
+// Example 08, Function
+// function getAge(){
+//     return 22;
+// }
+//  function utility(name, age){
+//     console.log(name, " ",age)
+//  }
+//  utility("Akram", 22)
+
+
+// Example 09, Function
+function getAge(){
+    return 22;
 }
-solve();
-
-
-
-// // Example 05, Array
-function solve(value = ["Akram", 33, null, 7.5, "World"]) {
-    console.log("Hello jee! this is Array", value);
-}
-solve();
-
-
-
-
-// // Example 06, null
-function solve(value = ["Akram", 33, null, 7.5, "World"]) {
-    console.log("Hello jee! this is ", value);
-}
-solve(null);
-
-
-// Example 07, undefined
-function solve(value = ["Akram", 33, null, 7.5, "World"]) {
-    console.log("Hello jee! this is ", value);
-}
-solve(undefined); // undefined is not accepted, accept the default parameter
+ function utility(name = "Akram", age = getAge()){
+    console.log(name, " ",age)
+ }
+ utility();
 
 
 
