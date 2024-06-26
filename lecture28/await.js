@@ -75,6 +75,7 @@ function getData(dataId, getNextData) {
 }
 // getData(1, getData(2)); // this is not execute it say getData is not a funtion
 
+// callback hell
 getData(1, () => {
     getData(2, () => {
         getData(3, () => {
