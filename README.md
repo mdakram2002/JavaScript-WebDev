@@ -26,7 +26,7 @@ lecture24: Compile and Run Time
 lecture25: Document Object Model
 lecture26: Event Lintener and Function
 lecture27: Reflow & Repaint and Performance Measure
-lecture28:
+lecture28: Await, CallBack Function and promis
 lecture29:
 lecture30:
 lecture31:
