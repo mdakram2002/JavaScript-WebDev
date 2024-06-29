@@ -26,8 +26,8 @@ lecture24: Compile and Run Time
 lecture25: Document Object Model
 lecture26: Event Lintener and Function
 lecture27: Reflow & Repaint and Performance Measure
-lecture28: Await, CallBack hell Function and promise
-lecture29:
+lecture28: Await, CallBack hell Function, promise & IIFE
+lecture29: API Fetching
 lecture30:
 lecture31:
 lecture32:
