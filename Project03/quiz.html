@@ -1,0 +1,65 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="quiz.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div id="box" class="boxs">
+        <h2 id="quizBox">1) This is Dummy Questions</h2>
+        <div class="row">
+          <input
+            class="Options"
+            id="Option1"
+            type="radio"
+            value="a"
+            name="Option"
+          />
+          <label for="Option1"> Option 1</label>
+        </div>
+
+        <div class="row">
+          <input
+            class="Options"
+            id="Option2"
+            type="radio"
+            value="b"
+            name="Option"
+          />
+          <label for="Option2"> Option 1</label>
+        </div>
+        <div class="row">
+          <input
+            class="Options"
+            id="Option3"
+            type="radio"
+            value="c"
+            name="Option"
+          />
+          <label for="Option3"> Option 1</label>
+        </div>
+        <div class="row">
+          <input
+            class="Options"
+            id="Option4"
+            type="radio"
+            value="d"
+            name="Option"
+          />
+          <label for="Option4"> Option 1</label>
+        </div>
+        <div class="butn">
+          <button class="btn" onclick="getPrevious()">Previous</button>
+          <button class="btn" onclick="quizSummit()">Summit</button>
+          <button class="btn" onclick="getNext()">Next</button>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
