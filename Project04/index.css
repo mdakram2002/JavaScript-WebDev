@@ -6,3 +6,17 @@
 body {
   background-color: #16a085;
 }
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.checkbox-container {
+  height: 300px;
+  width: 300px;
+  /* background-color: #a42b8e; */
+}
