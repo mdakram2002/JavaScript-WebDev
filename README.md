@@ -25,15 +25,15 @@ Complex applications to master JavaScript.
 - Performance Optimization
 
 # Goals:
-* Solidify Fundamentals:
+Solidify Fundamentals:
 - Build a strong foundation in JavaScript.
-* Develop Complex Applications:
+Develop Complex Applications:
 - Learn to create intricate and efficient applications.
-* Master Asynchronous Programming:
+Master Asynchronous Programming:
 - Efficiently manage asynchronous operations.
-* Optimize Performance:
+Optimize Performance:
 - Apply performance optimization techniques.
-* Deepen Understanding:
+Deepen Understanding:
 - Explore advanced concepts and patterns.
 
 # Feedback & Contribution
