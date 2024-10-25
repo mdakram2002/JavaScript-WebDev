@@ -1,50 +1,41 @@
-# JavaScript-WebDev
-In this repository i'm learn JavaScript foundamental.
-lecture01: Basic Understanding of consloe.log()
-lecture02: Switch, if-else, promt, let, var, const
-lecture03: Basic of Let, Var and Const
-lecture04: primitive and Non-Primitive Data
-lecture05: Opraters
-lecture06: Comparision Opraters
-lecture07: If-else
-lecture08: Object
-lecture09: String
-lecture10: String Implementaion with Its Properties
-lecture12: Array
-lecture13: Arrow Function
-lecture14: Loop In Array
-lecture15: Prompt
-lecture16: Rest and Spreade
-lecture17: For Loop
-lecture18: Map, Sort & Reduce
-lecture19: Array with function, Class Hoisting & Await
-lecture20: Tempral Dead Zone
-lecture21: Class , Constructor and Default Parameter
-lecture22: InBuild Oject
-lecture23: Dynamic in Nature
-lecture24: Compile and Run Time
-lecture25: Document Object Model
-lecture26: Event Lintener and Function
-lecture27: Reflow & Repaint and Performance Measure
-lecture28: Await, CallBack hell Function, promise & IIFE
-lecture29: API Fetching
-lecture30:
-lecture31:
-lecture32:
-lecture33:
-lecture34:
-lecture35:
-lecture36:
-lecture37:
-lecture38:
-lecture39:
-lecture40:
-lecture41:
-lecture42:
-lecture43:
-lecture44:
-lecture45:
-lecture46:
-lecture47:
-lecture48:
+# JavaScript Learning Journey
+Welcome to my GitHub repository! This is a collection of my projects and code as I learn and master JavaScript, covering concepts from basic to advanced levels.
+
+# What You'll Find Here:
+# Basic Level Projects: 
+Foundational projects to get a solid grasp of JavaScript concepts.
+Variables and Data Types
+Functions and Scope
+Control Flow (if statements, loops)
+Arrays and Objects
+
+# Intermediate Level Projects: 
+Projects to deepen your understanding and enhance your skills.
+Asynchronous JavaScript (Promises, async/await)
+Error Handling
+DOM Manipulation
+Event Handling
+
+# Advanced Level Projects:
+Complex applications to master JavaScript.
+Advanced Functions (Closures, Currying)
+Object-Oriented Programming (OOP)
+Functional Programming
+Web APIs and AJAX
+Performance Optimization
+
+# Goals
+Solidify Fundamentals: Build a strong foundation in JavaScript.
+Develop Complex Applications: Learn to create intricate and efficient applications.
+Master Asynchronous Programming: Efficiently manage asynchronous operations.
+Optimize Performance: Apply performance optimization techniques.
+Deepen Understanding: Explore advanced concepts and patterns.
+
+# Feedback & Contribution
+Your feedback and suggestions are highly appreciated. Feel free to explore, provide insights, or contribute to any of the projects. Let's learn and grow together!
+
+# Contact me:
+Email: mdakram12022002@gmail.com 
+LinkedIn: https://www.linkedin.com/in/mdakram2002
+Portfolio: https://myportfolioakram.netlify.app
 # Author MD AKRAM
