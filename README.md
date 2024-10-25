@@ -4,7 +4,7 @@ Welcome to my GitHub repository! This is a collection of my projects and code as
 # What You'll Find Here:
 # Basic Level Projects: 
 Foundational projects to get a solid grasp of JavaScript concepts.
-<p>Variables and Data Types</p>
+Variables and Data Types
 Functions and Scope
 Control Flow (if statements, loops)
 Arrays and Objects
