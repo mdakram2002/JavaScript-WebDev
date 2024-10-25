@@ -19,7 +19,7 @@ Projects to deepen your understanding and enhance your skills.
 # Advanced Level Projects:
 Complex applications to master JavaScript.
 - Advanced Functions (Closures, Currying)
-- bject-Oriented Programming (OOP)
+- object-Oriented Programming (OOP)
 - Functional Programming
 - Web APIs and AJAX
 - Performance Optimization
@@ -40,7 +40,7 @@ Explore advanced concepts and patterns.
 Your feedback and suggestions are highly appreciated. Feel free to explore, provide insights, or contribute to any of the projects. Let's learn and grow together!
 
 # Contact me:
-Email: mdakram12022002@gmail.com 
-LinkedIn: https://www.linkedin.com/in/mdakram2002
-Portfolio: https://myportfolioakram.netlify.app
+- Email: mdakram12022002@gmail.com 
+- LinkedIn: https://www.linkedin.com/in/mdakram2002
+- Portfolio: https://myportfolioakram.netlify.app
 # Author MD AKRAM
